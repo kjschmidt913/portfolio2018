@@ -1,0 +1,44 @@
+
+.arrows {
+    color: #4c4c4c;
+}
+
+.background {
+    background-color: #f7f7f7;
+}
+
+.rounded-img {
+     border-radius: 5%;
+ }
+
+.resume h3{
+    color: #15a589;
+
+}
+
+.resume h6{
+    color: #28ac92;
+}
+
+.resume h1{
+    color: #20b497;
+}
+
+.resume-small{
+    color:#61736f;
+}
+
+.dec-none{
+    text-decoration: none;
+    color: #212529;
+}
+
+ @media print{
+     .print-hide{
+         display: none;
+     }
+     a{
+        text-decoration: none;
+        color: #212529;
+    }
+ }
