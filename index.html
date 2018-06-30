@@ -1,17 +1,16 @@
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KJ Schmidt</title>
+    <title> KJ Schmidt</title>
+    <link rel="icon" type="image/png" href="images/computer1.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
 
 </head>
-
 <body class="background">
     <div class="jumbotron">
         <div class="container">
@@ -19,12 +18,9 @@
 
         </div>
     </div>
-
     <div class="container col-md-8 col-12 mx-auto mb-5">
         <h2 class="text-center display-4 my-4">About Me</h2>
-        <p>I'm a software engineer with an eye for design. Creating and problem solving are what I love to do. I'm passionate
-            about connecting people and building interactive content, which has made software development so much fun to
-            learn.</p>
+        <p>I'm a software engineer with an eye for design. Creating and problem solving are what I love to do.</p>
         <p>
             I graduated from Tulane University in 2014 with a BA in Communication and Digital Media Production. Shortly after graduating, I attended
             a coding bootcamp at <a href="https://www.grandcircus.co/" target="blank">Grand Circus</a> in Detroit, Michigan, and have been working as a software engineer ever since.
@@ -35,31 +31,27 @@
             cloud pages, coding emails, and managing data extensions. To see my complete tech skill set, check out <a href="resume.html" target="blank">my resume</a>.
         </p>
         <p>
-            I love learning new things, and have been teaching myself iOS with courses on Udacity. I'm also currently enrolled in a computer science course at NYU. You can see more about how I continue to learn below.
-        </p>
-       
+            I love learning new things, and have been teaching myself iOS with courses on Udacity. I'm also currently enrolled in a computer science course at NYU. You can see all the courses I've taken recently in the Continuing Education section below.
+        </p>     
         <h1 class="text-center">
-            <a href="https://www.linkedin.com/in/schmidtkj/" target="blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/kjschmidt913" target="blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:kj.schmidt913@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="resume.html" target="blank"><i class="fas fa-id-card"></i></a>
-
+            <a href="https://www.linkedin.com/in/schmidtkj/" target="blank"><i class="fab fa-linkedin" alt="linkedin logo"></i></a>
+            <a href="https://github.com/kjschmidt913" target="blank"><i class="fab fa-github" alt="github logo"></i></a>
+            <a href="mailto:kj.schmidt913@gmail.com"><i class="fas fa-envelope" alt="email icon"></i></a>
+            <a href="resume.html" target="blank"><i class="fas fa-id-card" alt="resume icon"></i></a>
         </h1>
     </div>
-
-
     <div class="container">
         <h2 class="text-center display-4 mb-4">My Projects</h2>
         <div class="row">
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>Tyduu</h2>
-                <div id="tyduuCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <h3 class="text-center">Tyduu</h3>
+                <div id="tyduuCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100 rounded-img" src="images/tyduu1.jpg" alt="First slide">
+                            <img class="d-block w-100 rounded-img" src="images/tyduu1.jpg" alt="tyduu screenshot homepage">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 rounded-img" src="images/tyduu2.jpg" alt="Second slide">
+                            <img class="d-block w-100 rounded-img" src="images/tyduu2.jpg" alt="tyduu screenshot dashboard">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#tyduuCarousel" role="button" data-slide="prev">
@@ -71,41 +63,34 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-
                 <div class="collapse my-2" id="tyduu">
                     <p class="card card-body bg-light">An app for businesses looking to collect feedback using short surveys sent to customers via SMS. We use React, Node, Express, MongoDB, Twilio, and D3.js as well
                         as other developer tools to create this app. I worked mostly on the front end and designed every
                         page.
                         <a href="https://www.tyduu.com" target="blank" class="my-1">See Live</a>
                     </p>
-
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#tyduu" aria-expanded="false" aria-controls="tyduu">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#tyduu" aria-expanded="false" aria-controls="tyduu">View details</button>
                 </div>
-               
-
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>Ford Fast News</h2>
-                <img class="w-100 rounded-img" src="images/fastNews.jpg" />
+                <h3 class="text-center">Ford Fast News</h3>
+                <img class="w-100 rounded-img mb-3" src="images/fastNews.jpg" />
                 <div class="collapse my-2" id="fastNews">
                     <p class="card card-body bg-light"> Ford Fast News is an email newsletter sent by Ford Motor Company to about 2 million subscribers every
                         Thursday. I coded the email using html, css, and AMPscript. I worked within SalesForce Marketing
-                        Cloud to manage the data extension, code the email with new content, and schedule
+                        Cloud to manage the data extensions, code the email with new content, and schedule
                         the send using automation builder. My team created an A/B test plan and gave me full creative freedom
                         to design a new mobile friendly layout, pictured here.</p>
                 </div>
-
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#fastNews" aria-expanded="false" aria-controls="fastNews">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#fastNews" aria-expanded="false" aria-controls="fastNews">View details</button>
                 </div>
-
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>Crafted</h2>
-                <img class="w-100 rounded-img" src="images/crafted.jpg" />
-
+                <h3 class="text-center">Crafted</h3>
+                <img class="w-100 rounded-img mb-3" alt="screenshot of crafted" src="images/crafted.jpg" />
                 <div class="collapse my-2" id="crafted">
                     <p class="card card-body text-left bg-light"> An application that pairs your Detroit craft beer with recipes. The app takes the unique flavors in your
                         beer and scours the internet for top-rated recipes that will compliment those specific flavors. Each
@@ -113,56 +98,51 @@
                         use the app. We used jQuery, Angular, and the Spoonacular API.
                         <a href="https://github.com/AleahEllis/The-mobile-app" target="blank" class="my-1">Github Repository</a>
                     </p>
-
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#crafted" aria-expanded="false" aria-controls="crafted">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#crafted" aria-expanded="false" aria-controls="crafted">View details</button>
                 </div>
-
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>Mobile First Survey</h2>
-                <img class="w-75 d-block mx-auto col-sm-12 col-7" src="images/survey.png" />
+                <h3 class="text-center">Mobile First Survey</h3>
+                <img class="w-75 d-block mx-auto mb-3 col-sm-12 col-7" src="images/survey.png" alt="iphone screenshot of a survey"/>
                 <div class="collapse my-2" id="survey">
                     <p class="card card-body bg-light">
                         A mobile first survey that's fun and easy to take. I designed and created the survey within a React application,
                         and used Twilio's SMS to send survey links to users' mobile devices.</p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#survey" aria-expanded="false" aria-controls="survey">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#survey" aria-expanded="false" aria-controls="survey">View details</button>
                 </div>
-
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>Data Visualization</h2>
-                <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/dataVis.png" />
+                <h3 class="text-center">Data Visualization</h3>
+                <img class="d-block w-75 col-sm-12 col-7 mx-auto mb-3" src="images/dataVis.png" alt="iphone screenshot of a dashboard with graphs displaying data"/>
                 <div class="collapse my-2" id="dataVis">
                     <p class="card card-body bg-light">
                         The dashboard for business users of Tyduu displays data from the businesses' surveys. I created and designed the dashboard
-                        using a selection of D3.js charts that work well with react.
+                        using a selection of D3.js charts that work well with React.
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#dataVis" aria-expanded="false" aria-controls="dataVis">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#dataVis" aria-expanded="false" aria-controls="dataVis">View details</button>
                 </div>
-
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h2>iOS Development</h2>
-                <div id="iOSCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <h3 class="text-center">iOS Development</h3>
+                <div id="iOSCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS1.png" alt="First slide">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS1.png" alt="iphone screenshot of an app asking you to record a sound">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS2.png" alt="Second slide">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS2.png" alt="iphone screenshot of an app with options to play back a recorded sound">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS3.png" alt="Third slide">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS3.png" alt="iphone screenshot of a template to create a meme">
                         </div>
-
                     </div>
                     <a class="carousel-control-prev" href="#iOSCarousel" role="button" data-slide="prev">
                         <i class="fa fa-chevron-left arrows"></i>
@@ -173,7 +153,6 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-
                 <div class="collapse my-2" id="example">
                     <p class="card card-body bg-light">
                         I've created two iOS apps through courses from Udacity. The first is an app where the user records a sound and is able to
@@ -184,13 +163,19 @@
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mt-4 mb-5" data-toggle="collapse" data-target="#example" aria-expanded="false" aria-controls="example">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#example" aria-expanded="false" aria-controls="example">View details</button>
                 </div>
-
             </div>
         </div>
     </div>
-
+    <div class="container col-md-8 col-12 mx-auto">
+        <h2 class="text-center display-4 my-5">Open Source Involvement</h2>
+        <p>Here are open source projects I've contributed to. I'm just beginning my involvement in the open source community and am looking forward to doing more.</p>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
     <div class="container col-md-8 col-12 mx-auto">
         <h2 class="text-center display-4 my-5">Continuing Education</h2>
         <p>
@@ -205,21 +190,17 @@
                     <li class="small">A program designed for students lacking a background in computer science giving you a gateway to a graduate-level degree in computer science. If you complete this intensive bridge course with a grade of B+ or better,  you are eligible to be admitted to the NYU Computer Science master's program without any course deficiencies.</li>
                 </ul>
             </li>
-
             <li>
                 <a href="https://www.udacity.com/course/grand-central-dispatch-gcd--ud576" target="blank">Grand Central Dispatch</a> - Udacity
                 <ul>
                     <li class="small">Many times your apps need to run lengthy operations in the background, like downloading data, but you don't want these operations to interfere with your UI.
-
-                            Apple's GCD (long form: Grand Central Dispatch) framework allows you to create asynchronous apps for iOS, ensuring smooth a smooth user experience in those situations.</li>
+                    Apple's GCD (long form: Grand Central Dispatch) framework allows you to create asynchronous apps for iOS, ensuring smooth a smooth user experience in those situations.</li>
                 </ul>
             </li>
             <li>
                 <a href="https://www.udacity.com/course/auto-layout--ud1026" target="blank">Autolayout</a> - Udacity
                 <ul>
-                    <li class="small">Learn AutoLayout and how to use stack views and constraints to create pixel-perfect UIs.
-
-                            You'll learn about some of the most commonly misunderstood properties affecting layout like distribution, alignment, content hugging, and compression resistance. Then, create functional interfaces with multiple stack views and UI elements. By the end of this course, you will be ready to create beautiful interfaces from scratch.</li>
+                    <li class="small">Learn AutoLayout and how to use stack views and constraints to create pixel-perfect UIs. You'll learn about some of the most commonly misunderstood properties affecting layout like distribution, alignment, content hugging, and compression resistance. Then, create functional interfaces with multiple stack views and UI elements. By the end of this course, you will be ready to create beautiful interfaces from scratch.</li>
                 </ul>
             </li>
             <li>
@@ -243,8 +224,7 @@
             <li>
                 <a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="blank">OOP with Javascript</a> - Udacity
                 <ul>
-                    <li class="small">How to utilize the various object-oriented programming features within JavaScript, and how to write reusable
-                        and maintainable libraries</li>
+                    <li class="small">How to utilize the various object-oriented programming features within JavaScript, and how to write reusable and maintainable libraries</li>
                 </ul>
             </li>
             <li>
@@ -253,24 +233,16 @@
                     <li class="small">An introduction to python with an emphasis on object oriented programing. Learning is hands on by creating small projects throughout the course.</li>
                 </ul>
             </li>
-
-
-
         </ul>
     </div>
     <footer class="text-center my-5">KJ Schmidt |
         <a href="mailto:kj.schmidt913@gmail.com" class="dec-none">kj.schmidt913@gmail.com</a>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="app.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
-        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 </body>
-
 </html>
