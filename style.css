@@ -3,12 +3,36 @@
     color: #4c4c4c;
 }
 
+.no-dec-hov:hover{
+    text-decoration: none;
+}
+.banner{
+    color: white;
+    text-shadow: 2px 2px #20c997;
+}
+
+.jumbotron{
+    background-color: #87c2ea !important;
+}
+
+/* .bg-img{
+    background-image: url("images/IMG_0766.jpeg");
+    height: 60%; 
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 .background {
     background-color: #f7f7f7;
 }
 
 .rounded-img {
      border-radius: 5%;
+ }
+
+ .circle-img{
+     border-radius: 50%;
  }
 
 .resume h3{
