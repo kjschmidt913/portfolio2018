@@ -15,14 +15,6 @@
     background-color: #87c2ea !important;
 }
 
-/* .bg-img{
-    background-image: url("images/IMG_0766.jpeg");
-    height: 60%; 
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .background {
     background-color: #f7f7f7;
 }
@@ -40,7 +32,7 @@
 
 }
 
-.resume h6{
+.resume h5{
     color: #28ac92;
 }
 
