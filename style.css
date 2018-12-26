@@ -23,6 +23,14 @@
      border-radius: 5%;
  }
 
+ .rounded-img-long{
+     border-radius: 10%;
+ }
+
+ .cons-height{
+     height: 820px;
+ }
+
 .resume h3{
     color: #15a589;
 
