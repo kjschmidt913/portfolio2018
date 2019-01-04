@@ -53,12 +53,3 @@
     color: #212529;
 }
 
- @media print{
-     .print-hide{
-         display: none;
-     }
-     a{
-        text-decoration: none;
-        color: #212529;
-    }
- }
