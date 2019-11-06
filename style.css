@@ -53,3 +53,9 @@
     color: #212529;
 }
 
+a{
+    word-break:break-all;
+    white-space: normal;
+    display: inline;
+}
+
