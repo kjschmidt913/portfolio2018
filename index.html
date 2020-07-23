@@ -26,22 +26,17 @@
         </p>
 
         <p>
-            Previously, I worked as a software engineer on projects at Ford Motor Company and later at a small tech
-            start up, Tyduu.
-            To see my complete tech skill set, check out
+            Previously, I worked as a software engineer on projects at Ford Motor Company and later at a small tech start up, Tyduu. To see my complete tech skill set, check out
             <a href="resume.html" target="blank">my resume</a>.
         </p>
         <p>
-            I love solving problems and using my creativity and technical skills concurrently. I've found my
-            communication background has been extremely beneficial when working with teams, and I enjoy opportunities to
-            challenge myself and continue learning.
+            I love solving problems and using my creativity and technical skills concurrently. I've found my communication background has been extremely beneficial when working with teams, and I enjoy opportunities to challenge myself and continue learning.
         </p>
         <p>
             My number one career goal is to have a positive impact. I'm currently interested in applying AI to healthcare for this reason. I also continue to educate myself about ethics issues surrounding AI and the work being done in that space.
         </p>
         <p>
-            When I'm not coding, you can find me exploring the city with my dog, trying to keep my plants alive, and
-            putting together cheese plates for friends.
+            When I'm not coding, you can find me exploring the city with my dog, trying to keep my plants alive, and putting together cheese plates for friends.
         </p>
 
         <h1 class="text-center">
@@ -65,21 +60,67 @@
         <h3 class="text-left display-5 mb-4">Data Science, Artificial Intelligence, Machine Learning</h3>
         <div class="row">
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h4 class="text-center">Translation App</h4>
-                <img class="w-100 rounded-img mb-3" src="images/LOTR.jpg" />
+                <h4 class="text-center">Predicting Blood Pressure</h4>
+                <img class="w-100 rounded-img mb-3" src="images/BP.jpg" />
                 <div class="collapse my-2" id="project-1">
-                    <p class="card card-body bg-light">A web app that uses AWS to translate user recorded audio to another
-                        language. This app uses several AWS machine learning services. It first uses Transcribe to
-                        transcribe the audio recording into text. Then it uses Translate to translate the text to
-                        another language. Finally, it uses Polly to read the text translation to the user. This was made
-                        during a 3 hour hackathon with two other team members.
-                        <a href="https://d10scck8rvflj0.cloudfront.net/voice-translator.html" target="blank"
-                            class="my-1">View Live</a>
+                    <p class="card card-body bg-light">I worked with the Rogers Research Group, a biomedical engineering lab at Northwestern University. The focus of this project was to continuously monitor a patient’s blood pressure using data gathered by sensors that are placed on the
+                        body. The sensors are able to gather ECG, SCG, and PPG data, which I used to predict blood pressure using an LSTM model. Currently to measure blood pressure continuously, an arterial line is needed which is not ideal for fragile
+                        patients (who are usually the patients that need to monitor blood pressure closely). You can read more about this project in the article linked below.
+                        <a href="https://stm.sciencemag.org/content/12/536/eabb2779" target="blank" class="my-1">Wireless monitoring in the ICU</a>
+
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-1"
-                        aria-expanded="false" aria-controls="project-1">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-1" aria-expanded="false" aria-controls="project-1">View details</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-7 mx-auto">
+                <h4 class="text-center">Public Transit and Quality of Life</h4>
+                <img class="w-100 rounded-img mb-3" src="images/transpo.jpg" />
+                <div class="collapse my-2" id="project-2">
+                    <p class="card card-body bg-light">
+                        A quarter long data science project using public transportation data and socioeconomic data from the city of Chicago. Me and one other team member explored the relationship between access to public transit and quality of life. We did a thorough analysis
+                        and did not find a statistically significant relationship. You can see our visualizations at the project link below.
+                        <a href="https://kjschmidt913.github.io/transpo_analytics/" target="blank" class="my-1">Project Page</a>
+
+                    </p>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-2" aria-expanded="false" aria-controls="project-2">View details</button>
+                </div>
+            </div>
+            <!-- <div class="col-md-4 col-sm-7 mx-auto">
+                <h4 class="text-center">Translation App</h4>
+                <img class="w-100 rounded-img mb-3" alt="screenshot of crafted" src="images/LOTR.jpg" />
+                <div class="collapse my-2" id="project-3">
+                    <p class="card card-body text-left bg-light">
+                        A web app that uses AWS to translate user recorded audio to another language. This app uses several AWS machine learning services. It first uses Transcribe to transcribe the audio recording into text. Then it uses Translate to translate the text to another
+                        language. Finally, it uses Polly to read the text translation to the user. This was made during a 3 hour hackathon with two other team members.
+
+
+                        <a href="https://d10scck8rvflj0.cloudfront.net/voice-translator.html" target="blank" class="my-1">View Live</a>
+
+                    </p>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-3" aria-expanded="false" aria-controls="project-3">View details</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-7 mx-auto">
+                <h4 class="text-center">Data Augmentation with GANs</h4>
+                <img class="w-100 rounded-img mb-3" src="images/GANs.jpg" />
+                <div class="collapse my-2" id="project-1">
+                    <p class="card card-body bg-light">Data is a key component to training any sort of machine learning model. But what about projects where you may not have access to the data (due to data regulation or privacy concerns)? Augment the data using GANs! That's what me and
+                        my two teammates did in this project. You can read more about this project in the report below and see our code on github.
+                        <a href="https://github.com/kjschmidt913/GAN-generate-data/tree/master" target="blank" class="my-1">Github
+                            Repository</a>
+                        <a href="https://medium.com/@kj_schmidt/generating-a-dataset-with-gans-1e994ff633fd" target="blank" class="my-1">Project Report</a>
+                    </p>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-1" aria-expanded="false" aria-controls="project-1">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
@@ -87,34 +128,33 @@
                 <img class="w-100 rounded-img mb-3" src="images/cpdp.jpg" />
                 <div class="collapse my-2" id="project-2">
                     <p class="card card-body bg-light">
-                        A quarter long data science project using data from the Chicago Police Department. We worked to understand the database and develop research questions
-                        by querying with SQL, clean and wrangle the data with Trifacta, develop data visualizations with
-                        Tableau and d3.js, create graph analytics with DataBricks, and use machine learning to predict future outcomes. We sought to analyze the influence that supervisors have on the officers they manage. Our full questions and findings can be found in our project report below.
+                        A quarter long data science project using data from the Chicago Police Department. We worked to understand the database and develop research questions by querying with SQL, clean and wrangle the data with Trifacta, develop data visualizations with Tableau
+                        and d3.js, create graph analytics with DataBricks, and use machine learning to predict future outcomes. We sought to analyze the influence that supervisors have on the officers they manage. Our full questions and findings can be
+                        found in our project report below.
                         <a href="https://github.com/kjschmidt913/cpdbProject" target="blank" class="my-1">Github
                             Repository</a>
                         <a href="https://medium.com/@kj_schmidt/supervisors-influence-within-the-chicago-police-department-c5c4f739ea65" target="blank" class="my-1">Project Report</a>
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-2"
-                        aria-expanded="false" aria-controls="project-2">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-2" aria-expanded="false" aria-controls="project-2">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
-                <h4 class="text-center">Data Augmentation with GANs</h4>
-                <img class="w-100 rounded-img mb-3" alt="screenshot of crafted" src="images/GANs.jpg" />
+                <h4 class="text-center">Translation App</h4>
+                <img class="w-100 rounded-img mb-3" alt="screenshot of crafted" src="images/LOTR.jpg" />
                 <div class="collapse my-2" id="project-3">
                     <p class="card card-body text-left bg-light">
-                            Data is a key component to training any sort of machine learning model. But what about projects where you may not have access to the data (due to data regulation or privacy concerns)? Augment the data using GANs! That's what me and my two teammates did in this project. You can read more about this project in the report below and see our code on github.
-                        <a href="https://github.com/kjschmidt913/GAN-generate-data/tree/master" target="blank" class="my-1">Github
-                            Repository</a>
-                        <a href="https://medium.com/@kj_schmidt/generating-a-dataset-with-gans-1e994ff633fd" target="blank" class="my-1">Project Report</a>
-                            
+                        A web app that uses AWS to translate user recorded audio to another language. This app uses several AWS machine learning services. It first uses Transcribe to transcribe the audio recording into text. Then it uses Translate to translate the text to another
+                        language. Finally, it uses Polly to read the text translation to the user. This was made during a 3 hour hackathon with two other team members.
+
+
+                        <a href="https://d10scck8rvflj0.cloudfront.net/voice-translator.html" target="blank" class="my-1">View Live</a>
+
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-3"
-                        aria-expanded="false" aria-controls="project-3">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#project-3" aria-expanded="false" aria-controls="project-3">View details</button>
                 </div>
             </div>
         </div>
@@ -126,12 +166,10 @@
                 <div id="tyduuCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100 rounded-img" src="images/tyduu_v2_1.jpg"
-                                alt="tyduu screenshot homepage">
+                            <img class="d-block w-100 rounded-img" src="images/tyduu_v2_1.jpg" alt="tyduu screenshot homepage">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 rounded-img" src="images/tyduu_v2_2.jpg"
-                                alt="tyduu screenshot dashboard">
+                            <img class="d-block w-100 rounded-img" src="images/tyduu_v2_2.jpg" alt="tyduu screenshot dashboard">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#tyduuCarousel" role="button" data-slide="prev">
@@ -144,73 +182,49 @@
                     </a>
                 </div>
                 <div class="collapse my-2" id="tyduu">
-                    <p class="card card-body bg-light">An app for businesses looking to collect feedback using short
-                        surveys sent to customers via SMS. We use
-                        React, Node, Express, MongoDB, Twilio, Stripe, and D3.js as well as other developer tools to
-                        create
-                        this
-                        app.
+                    <p class="card card-body bg-light">An app for businesses looking to collect feedback using short surveys sent to customers via SMS. We use React, Node, Express, MongoDB, Twilio, Stripe, and D3.js as well as other developer tools to create this app.
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#tyduu"
-                        aria-expanded="false" aria-controls="tyduu">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#tyduu" aria-expanded="false" aria-controls="tyduu">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
                 <h4 class="text-center">Ford Fast News</h4>
                 <img class="w-100 rounded-img mb-3" src="images/fastNews.jpg" />
                 <div class="collapse my-2" id="fastNews">
-                    <p class="card card-body bg-light"> Ford Fast News is an email newsletter sent by Ford Motor
-                        Company to about 2 million subscribers every
-                        Thursday. I coded the email using html, css, and AMPscript. I worked within SalesForce
-                        Marketing
-                        Cloud to manage the data extensions, code the email with new content, and schedule the send
-                        using
-                        automation builder. My team created an A/B test plan and gave me full creative freedom to
-                        design
-                        a new mobile friendly layout, pictured here.</p>
+                    <p class="card card-body bg-light"> Ford Fast News is an email newsletter sent by Ford Motor Company to about 2 million subscribers every Thursday. I coded the email using html, css, and AMPscript. I worked within SalesForce Marketing Cloud to manage the data extensions,
+                        code the email with new content, and schedule the send using automation builder. My team created an A/B test plan and gave me full creative freedom to design a new mobile friendly layout, pictured here.</p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#fastNews"
-                        aria-expanded="false" aria-controls="fastNews">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#fastNews" aria-expanded="false" aria-controls="fastNews">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
                 <h4 class="text-center">Crafted</h4>
                 <img class="w-100 rounded-img mb-3" alt="screenshot of crafted" src="images/crafted.jpg" />
                 <div class="collapse my-2" id="crafted">
-                    <p class="card card-body text-left bg-light"> An application that pairs your Detroit craft beer
-                        with recipes. The app takes the unique flavors in your
-                        beer and scours the internet for top-rated recipes that will compliment those specific flavors.
-                        Each
-                        beer will call 3 different recipes. Since the recipes are pulled by rating, they will change as
-                        you
-                        use the app. We used jQuery, Angular, and the Spoonacular API.
+                    <p class="card card-body text-left bg-light"> An application that pairs your Detroit craft beer with recipes. The app takes the unique flavors in your beer and scours the internet for top-rated recipes that will compliment those specific flavors. Each beer will call 3 different
+                        recipes. Since the recipes are pulled by rating, they will change as you use the app. We used jQuery, Angular, and the Spoonacular API.
                         <a href="https://github.com/AleahEllis/The-mobile-app" target="blank" class="my-1">Github
                             Repository</a>
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#crafted"
-                        aria-expanded="false" aria-controls="crafted">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#crafted" aria-expanded="false" aria-controls="crafted">View details</button>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-4 col-sm-7 mx-auto">
                 <h4 class="text-center">Mobile First Survey</h4>
-                <img class="w-75 d-block mx-auto mb-3 col-sm-12 col-7" src="images/survey.png"
-                    alt="iphone screenshot of a survey" />
+                <img class="w-75 d-block mx-auto mb-3 col-sm-12 col-7" src="images/survey.png" alt="iphone screenshot of a survey" />
                 <div class="collapse my-2" id="survey">
                     <p class="card card-body bg-light">
-                        A mobile first survey that's fun and easy to take. I designed and created the survey within a
-                        React application, and used
-                        Twilio's SMS to send survey links to users' mobile devices.</p>
+                        A mobile first survey that's fun and easy to take. I designed and created the survey within a React application, and used Twilio's SMS to send survey links to users' mobile devices.</p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#survey"
-                        aria-expanded="false" aria-controls="survey">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#survey" aria-expanded="false" aria-controls="survey">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
@@ -218,12 +232,10 @@
                 <div id="dataVisCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/dataVis.png"
-                                alt="iphone screenshot of Tyduu dashboard showing data visualizations">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/dataVis.png" alt="iphone screenshot of Tyduu dashboard showing data visualizations">
                         </div>
                         <div class="carousel-item rounded-img-long">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/dataVis2.png"
-                                alt="desktop screenshot of a few data visualizations">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/dataVis2.png" alt="desktop screenshot of a few data visualizations">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#dataVisCarousel" role="button" data-slide="prev">
@@ -237,16 +249,13 @@
                 </div>
                 <div class="collapse my-2" id="dataVis">
                     <p class="card card-body bg-light">
-                        I created and designed the dashboard for Tyduu using a selection of D3.js charts that work well
-                        with React. I've also been working with D3.js outside of Tyduu, which can be found on my
-                        github. See my work in progress at the project link below.
+                        I created and designed the dashboard for Tyduu using a selection of D3.js charts that work well with React. I've also been working with D3.js outside of Tyduu, which can be found on my github. See my work in progress at the project link below.
                         <a href="https://kjschmidt913.github.io/data-visualization/" target="blank">Data Visualization
                             Project</a>
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#dataVis"
-                        aria-expanded="false" aria-controls="dataVis">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#dataVis" aria-expanded="false" aria-controls="dataVis">View details</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-7 mx-auto">
@@ -254,16 +263,13 @@
                 <div id="iOSCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS1.png"
-                                alt="iphone screenshot of an app asking you to record a sound">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS1.png" alt="iphone screenshot of an app asking you to record a sound">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS2.png"
-                                alt="iphone screenshot of an app with options to play back a recorded sound">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS2.png" alt="iphone screenshot of an app with options to play back a recorded sound">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS3.png"
-                                alt="iphone screenshot of a template to create a meme">
+                            <img class="d-block w-75 col-sm-12 col-7 mx-auto" src="images/iOS3.png" alt="iphone screenshot of a template to create a meme">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#iOSCarousel" role="button" data-slide="prev">
@@ -277,23 +283,16 @@
                 </div>
                 <div class="collapse my-2" id="example">
                     <p class="card card-body bg-light">
-                        I've created two iOS apps through courses from Udacity. Pitch Perfect is an app where the user
-                        records a sound and is able to
-                        play it back with various effects. Meme Me is an app that allows the user to create a meme by
-                        either taking
-                        a photo with the camera or selecting a photo from the camera roll, overlaying text, and then
-                        saving
-                        to an album.
-                        <a href="https://github.com/kjschmidt913/pitchPerfect" target="blank"
-                            class="mt-1 d-block">Github
+                        I've created two iOS apps through courses from Udacity. Pitch Perfect is an app where the user records a sound and is able to play it back with various effects. Meme Me is an app that allows the user to create a meme by either taking a photo with the
+                        camera or selecting a photo from the camera roll, overlaying text, and then saving to an album.
+                        <a href="https://github.com/kjschmidt913/pitchPerfect" target="blank" class="mt-1 d-block">Github
                             Repository - Pitch Perfect</a>
                         <a href="https://github.com/kjschmidt913/MemeMe2.0" target="blank" class="mb-1 d-block">Github
                             Repository - Meme Me</a>
                     </p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#example"
-                        aria-expanded="false" aria-controls="example">View details</button>
+                    <button class="btn btn-outline-info mb-5" data-toggle="collapse" data-target="#example" aria-expanded="false" aria-controls="example">View details</button>
                 </div>
             </div>
         </div>
@@ -318,15 +317,9 @@
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
-        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 </body>
 
 </html>
