@@ -3,4 +3,4 @@ My portfolio highlights projects I've worked on and links to my github, [medium]
 
 Made with [bootstrap](https://getbootstrap.com/) v4.1.1
 
-Last updated in 2021
+Last updated in January 2024
